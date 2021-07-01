@@ -47,6 +47,22 @@ hr{
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
+a.link-primary:hover{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid var(--primary-color);
+
+}
+a.link-secondary:hover{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 2px solid var(--primary-color);
+    font-weight: bolder;
+}
+
+
 
 /* lists */
 
@@ -78,6 +94,9 @@ hr{
 }
 .navigation .link-active{
     font-weight: bold;
+}
+.navigation .link:hover{
+    font-weight: bolder;
 }
 
 /* header */
@@ -132,4 +151,7 @@ hr{
 }
 .footer ul{
     padding-inline-start: 0px;
+}
+.footer .link:hover{
+    font-weight: bolder;
 }
