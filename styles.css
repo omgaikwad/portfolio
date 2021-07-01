@@ -83,7 +83,11 @@ a.link-secondary:hover{
     border-bottom-left-radius: 1rem;
 }
 
+.navigation .nav-header-link{
+    margin-right: 10rem;
+}
 .navigation .nav-brand{
+    
     font-size: larger;
     font-weight: bolder;
 }
