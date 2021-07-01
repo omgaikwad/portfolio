@@ -84,7 +84,8 @@ a.link-secondary:hover{
 }
 
 .navigation .nav-brand{
-    font-weight: bold;
+    font-size: larger;
+    font-weight: bolder;
 }
 .navigation .nav-pills{
     text-align: right;
