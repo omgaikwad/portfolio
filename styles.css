@@ -23,8 +23,7 @@ hr{
 
 /* container */
 .container{
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0rem 1rem;
 }
 
 .container-center{
@@ -34,18 +33,26 @@ hr{
 
 /* links */
 .link{
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    
 }
 .link-primary{
+    display: block;
+    max-width: 140px;
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    margin: 1rem 1rem 1rem 0rem;
 }
 .link-secondary{
+    display: block;
+    max-width: 140px;
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+    margin: 1rem 1rem 1rem 0rem;
 }
 a.link-primary:hover{
     background-color: var(--primary-color);
@@ -68,12 +75,12 @@ a.link-secondary:hover{
 
 .list-non-bullet{
     list-style: none;
+    padding-inline-start: 0px;
 }
 .list-item-inline{
     display: inline;
     padding: 0rem 0.5rem;
 }
-
 /* navbar */
 
 .navigation{
@@ -83,6 +90,8 @@ a.link-secondary:hover{
     border-bottom-left-radius: 1rem;
 }
 .navigation .nav-brand{
+    color: white;
+    text-decoration: none;
     font-size: larger;
     font-weight: bolder;
 }
